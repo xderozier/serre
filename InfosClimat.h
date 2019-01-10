@@ -17,10 +17,22 @@
 class InfosClimat {
 public:
     InfosClimat();
-    InfosClimat(const InfosClimat& orig);
     virtual ~InfosClimat();
+    int getHygrometrie();
+    int getTemperature();
+    int getPositionOuvrants();
+    int getLuminosite();
+    
+    void setHygrometrie(int hygro);
+    void setTemperature(int temp);
+    void setPositionOuvrants(int pos);
+    void setLuminosite(int lum);
 private:
-
+    int hygrometrie;
+    int temperature;
+    int positionOuvrants;
+    int luminosite;
+    int date;
 };
 
 #endif /* INFOSCLIMAT_H */

@@ -15,6 +15,7 @@
 #define _VUESERRE_H
 
 #include "ui_VueSerre.h"
+#include "InfosClimat.h"
 
 class VueSerre : public QWidget {
     Q_OBJECT
@@ -24,6 +25,7 @@ public:
     void mettreAJour();
 private:
     Ui::VueSerre widget;
+    InfosClimat* infosClimas;
 };
 
 #endif /* _VUESERRE_H */
