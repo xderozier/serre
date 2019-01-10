@@ -25,7 +25,7 @@ public:
     void mettreAJour();
 private:
     Ui::VueSerre widget;
-    InfosClimat* infosClimas;
+    InfosClimat* infosClimat;
 };
 
 #endif /* _VUESERRE_H */

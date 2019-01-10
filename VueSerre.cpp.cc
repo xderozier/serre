@@ -22,7 +22,7 @@ VueSerre::~VueSerre() {
 
 void VueSerre::mettreAJour() {
     widget.temperature -> setText("25");
-    widget.hygrometrie -> setText("63");
+    widget.hygrometrie -> setText("70");
     widget.luminosite -> setText("135");
     widget.positionOuvrants -> setText("45");
 }
