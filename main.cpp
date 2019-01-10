@@ -24,6 +24,7 @@ int main(int argc, char *argv[]) {
     
     VueSerre* monFormulaire = new VueSerre();
     monFormulaire -> show();
+    monFormulaire -> mettreAJour();
     
     return app.exec();
 }
