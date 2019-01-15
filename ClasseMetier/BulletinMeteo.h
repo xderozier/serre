@@ -13,8 +13,9 @@
 
 #ifndef BULLETINMETEO_H
 #define BULLETINMETEO_H
+#include "Observable.h"
 
-class BulletinMeteo {
+class BulletinMeteo :public Observable {
 public:
     BulletinMeteo();
     virtual ~BulletinMeteo();

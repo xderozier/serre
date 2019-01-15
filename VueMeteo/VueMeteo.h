@@ -13,16 +13,17 @@
 
 #ifndef _VUEMETEO_H
 #define _VUEMETEO_H
-#include "BulletinMeteo.h"
+#include "../ClasseMetier/BulletinMeteo.h"
 
 #include "ui_VueMeteo.h"
 
-class VueMeteo : public QWidget {
+class VueMeteo : public QWidget,Observateur {
     Q_OBJECT
 public:
     VueMeteo();
+    VueMeteo(BulletinMeteo* unBulletinMeteo);
     virtual ~VueMeteo();
-    void mettreAjour() ;
+    void mettreAJour() ;
 private:
     Ui::VueMeteo widget;
     BulletinMeteo* dernierBulletinMeteo;

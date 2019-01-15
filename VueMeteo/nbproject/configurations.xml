@@ -4,7 +4,9 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>BulletinMeteo.h</itemPath>
+      <itemPath>../ClasseMetier/BulletinMeteo.h</itemPath>
+      <itemPath>../ClasseMetier/Observable.h</itemPath>
+      <itemPath>../ClasseMetier/Observateur.h</itemPath>
       <itemPath>VueMeteo.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
@@ -15,7 +17,9 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>BulletinMeteo.cpp</itemPath>
+      <itemPath>../ClasseMetier/BulletinMeteo.cpp</itemPath>
+      <itemPath>../ClasseMetier/Observable.cpp</itemPath>
+      <itemPath>../ClasseMetier/Observateur.cpp</itemPath>
       <itemPath>VueMeteo.cpp.cc</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
@@ -44,9 +48,17 @@
       </qt>
       <compileType>
       </compileType>
-      <item path="BulletinMeteo.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../ClasseMetier/BulletinMeteo.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="BulletinMeteo.h" ex="false" tool="3" flavor2="0">
+      <item path="../ClasseMetier/BulletinMeteo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ClasseMetier/Observable.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../ClasseMetier/Observable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ClasseMetier/Observateur.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../ClasseMetier/Observateur.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="VueMeteo.cpp.cc" ex="false" tool="1" flavor2="0">
       </item>
@@ -81,9 +93,17 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="BulletinMeteo.cpp" ex="false" tool="1" flavor2="0">
+      <item path="../ClasseMetier/BulletinMeteo.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="BulletinMeteo.h" ex="false" tool="3" flavor2="0">
+      <item path="../ClasseMetier/BulletinMeteo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ClasseMetier/Observable.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../ClasseMetier/Observable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ClasseMetier/Observateur.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../ClasseMetier/Observateur.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="VueMeteo.cpp.cc" ex="false" tool="1" flavor2="0">
       </item>

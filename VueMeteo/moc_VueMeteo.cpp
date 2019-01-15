@@ -76,6 +76,8 @@ void *VueMeteo::qt_metacast(const char *_clname)
     if (!_clname) return Q_NULLPTR;
     if (!strcmp(_clname, qt_meta_stringdata_VueMeteo.stringdata0))
         return static_cast<void*>(const_cast< VueMeteo*>(this));
+    if (!strcmp(_clname, "Observateur"))
+        return static_cast< Observateur*>(const_cast< VueMeteo*>(this));
     return QWidget::qt_metacast(_clname);
 }
 

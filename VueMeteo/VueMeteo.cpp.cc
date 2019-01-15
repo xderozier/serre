@@ -19,7 +19,12 @@ VueMeteo::VueMeteo() {
 
 VueMeteo::~VueMeteo() {
 }
-void VueMeteo::mettreAjour(){
+void VueMeteo::mettreAJour(){
     widget.vitesseVent->setText("15");
     widget.temperature->setText("20");
+}
+VueMeteo::VueMeteo(BulletinMeteo* unBulletinMeteo){
+    widget.setupUi(this);
+    dernierBulletinMeteo= unBulletinMeteo ;
+            
 }
