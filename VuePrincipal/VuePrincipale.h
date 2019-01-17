@@ -15,6 +15,7 @@
 #define VUEPRINCIPAL_H
 
 #include "ui_VuePrincipale.h"
+#include "ui_VueMeteo.h"
 
 class VuePrincipale : public QWidget {
     Q_OBJECT
