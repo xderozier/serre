@@ -16,13 +16,19 @@
 
 #include "ui_VuePrincipale.h"
 
-class VuePrincipal : public QWidget {
+class VuePrincipale : public QWidget {
     Q_OBJECT
 public:
-    VuePrincipal();
-    virtual ~VuePrincipal();
+    VuePrincipale();
+    VuePrincipale(Superviseur unSuperviseur);
+    virtual ~VuePrincipale();
+    VueMeteo* getLaVueMeteo();
+    VueSerre* getLaVueSerre();
+    void mettreAJour();
 private:
-
+    VueMeteo laVueMeteo;
+    VueSerre laVueSerre[];
+    Superviseur leSuperviseur;
 };
 
 #endif /* VUEPRINCIPAL_H */
