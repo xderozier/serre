@@ -25,7 +25,7 @@ public:
     void delObservateur(Observateur* obs);
     virtual ~Observable();
     void notifier();
-    
+
 private:
     std::vector<Observateur*> listeObservateurs;
 };
