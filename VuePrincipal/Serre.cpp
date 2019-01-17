@@ -5,17 +5,21 @@
  */
 
 /* 
- * File:   VuePrincipal.cpp
+ * File:   Serre.cpp
  * Author: snir2g1
  * 
- * Created on 17 janvier 2019, 16:28
+ * Created on 17 janvier 2019, 17:01
  */
 
-#include "VuePrincipal.h"
+#include "Serre.h"
 
-VuePrincipal::VuePrincipal() {
+Serre::Serre() {
+    infosClimat = new InfosClimat();
 }
 
-VuePrincipal::~VuePrincipal() {
+Serre::~Serre() {
 }
 
+void Serre::executerCommande(Commande commande){
+    
+}

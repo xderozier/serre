@@ -5,13 +5,21 @@
                    displayName="Header Files"
                    projectFiles="true">
       <itemPath>../ClasseMetier/BulletinMeteo.h</itemPath>
+<<<<<<< HEAD
       <itemPath>ClientMeteo.h</itemPath>
       <itemPath>../ClasseMetier/InfosClimat.h</itemPath>
       <itemPath>../ClasseMetier/Observable.h</itemPath>
       <itemPath>../ClasseMetier/Observateur.h</itemPath>
       <itemPath>Superviseur.h</itemPath>
+=======
+      <itemPath>Commande.h</itemPath>
+      <itemPath>../ClasseMetier/InfosClimat.h</itemPath>
+      <itemPath>../ClasseMetier/Observable.h</itemPath>
+      <itemPath>../ClasseMetier/Observateur.h</itemPath>
+      <itemPath>Serre.h</itemPath>
+>>>>>>> 6556118d8c5efb3856eeba35bb161c99073272a9
       <itemPath>../VueMeteo/VueMeteo.h</itemPath>
-      <itemPath>VuePrincipal.h</itemPath>
+      <itemPath>VuePrincipale.h</itemPath>
       <itemPath>../VueSerre/VueSerre.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
@@ -25,13 +33,21 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>../ClasseMetier/BulletinMeteo.cpp</itemPath>
+<<<<<<< HEAD
       <itemPath>ClientMeteo.cpp</itemPath>
       <itemPath>../ClasseMetier/InfosClimat.cpp</itemPath>
       <itemPath>../ClasseMetier/Observable.cpp</itemPath>
       <itemPath>../ClasseMetier/Observateur.cpp</itemPath>
       <itemPath>Superviseur.cpp</itemPath>
+=======
+      <itemPath>Commande.cpp</itemPath>
+      <itemPath>../ClasseMetier/InfosClimat.cpp</itemPath>
+      <itemPath>../ClasseMetier/Observable.cpp</itemPath>
+      <itemPath>../ClasseMetier/Observateur.cpp</itemPath>
+      <itemPath>Serre.cpp</itemPath>
+>>>>>>> 6556118d8c5efb3856eeba35bb161c99073272a9
       <itemPath>../VueMeteo/VueMeteo.cpp.cc</itemPath>
-      <itemPath>VuePrincipal.cpp</itemPath>
+      <itemPath>VuePrincipale.cpp</itemPath>
       <itemPath>../VueSerre/VueSerre.cpp.cc</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
@@ -88,6 +104,7 @@
       </item>
       <item path="../VueSerre/VueSerre.ui" ex="false" tool="3" flavor2="0">
       </item>
+<<<<<<< HEAD
       <item path="ClientMeteo.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="ClientMeteo.h" ex="false" tool="3" flavor2="0">
@@ -97,8 +114,19 @@
       <item path="Superviseur.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="VuePrincipal.cpp" ex="false" tool="1" flavor2="0">
+=======
+      <item path="Commande.cpp" ex="false" tool="1" flavor2="0">
+>>>>>>> 6556118d8c5efb3856eeba35bb161c99073272a9
       </item>
-      <item path="VuePrincipal.h" ex="false" tool="3" flavor2="0">
+      <item path="Commande.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Serre.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Serre.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="VuePrincipale.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="VuePrincipale.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="VuePrincipale.ui" ex="false" tool="3" flavor2="0">
       </item>
@@ -157,6 +185,7 @@
       </item>
       <item path="../VueSerre/VueSerre.ui" ex="false" tool="3" flavor2="0">
       </item>
+<<<<<<< HEAD
       <item path="ClientMeteo.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="ClientMeteo.h" ex="false" tool="3" flavor2="0">
@@ -166,8 +195,19 @@
       <item path="Superviseur.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="VuePrincipal.cpp" ex="false" tool="1" flavor2="0">
+=======
+      <item path="Commande.cpp" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="VuePrincipal.h" ex="false" tool="3" flavor2="0">
+      <item path="Commande.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Serre.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Serre.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="VuePrincipale.cpp" ex="false" tool="1" flavor2="0">
+>>>>>>> 6556118d8c5efb3856eeba35bb161c99073272a9
+      </item>
+      <item path="VuePrincipale.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="VuePrincipale.ui" ex="false" tool="3" flavor2="0">
       </item>

@@ -12,7 +12,7 @@
  */
 
 #include <QApplication>
-#include "VuePrincipal.h"
+#include "VuePrincipale.h"
 
 int main(int argc, char *argv[]) {
     // initialize resources, if needed
