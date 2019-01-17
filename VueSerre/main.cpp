@@ -21,10 +21,10 @@ int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
 
     // create and show your widgets here
-    
-    VueSerre* monFormulaire = new VueSerre();
+    InfosClimat * uneInfoClimat = new InfosClimat();
+    QString unNom;
+    VueSerre* monFormulaire = new VueSerre(unNom, uneInfoClimat);
+    uneInfoClimat -> setTemperature(15);
     monFormulaire -> show();
-    monFormulaire -> mettreAJour();
-    
     return app.exec();
 }

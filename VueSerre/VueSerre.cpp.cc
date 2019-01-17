@@ -15,14 +15,27 @@
 
 VueSerre::VueSerre() {
     widget.setupUi(this);
+    infosClimat = new InfosClimat();
+}
+
+VueSerre::VueSerre(QString nom, InfosClimat* uneInfosClimat) {
+    widget.setupUi(this);
+    infosClimat = uneInfosClimat;
+    nomInfosClimat = nom;
+    infosClimat->addObservateur(this);
 }
 
 VueSerre::~VueSerre() {
 }
 
 void VueSerre::mettreAJour() {
-    widget.temperature -> setText("25");
-    widget.hygrometrie -> setText("70");
-    widget.luminosite -> setText("135");
-    widget.positionOuvrants -> setText("45");
+    QString temp = QString::number(infosClimat -> getTemperature());
+    QString hyg = QString::number(infosClimat -> getHygrometrie());
+    QString lum = QString::number(infosClimat -> getLuminosite());
+    QString posOuv = QString::number(infosClimat -> getPositionOuvrants());
+
+    widget.temperature -> setText(temp);
+    widget.hygrometrie -> setText(hyg);
+    widget.luminosite -> setText(lum);
+    widget.positionOuvrants -> setText(posOuv);
 }
