@@ -7,6 +7,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/home/snir2g1/NetBeansProjects/Serre/VueSerre/VueSerre.h</file>
             <file>file:/home/snir2g1/NetBeansProjects/Serre/VueMeteo/VueMeteo.h</file>
             <file>file:/home/snir2g1/NetBeansProjects/Serre/VuePrincipal/Commande.cpp</file>
@@ -16,6 +17,12 @@
             <file>file:/home/snir2g1/NetBeansProjects/Serre/VuePrincipal/VuePrincipale.cpp</file>
             <file>file:/home/snir2g1/NetBeansProjects/Serre/VuePrincipal/Serre.h</file>
             <file>file:/home/snir2g1/NetBeansProjects/Serre/VuePrincipal/Serre.cpp</file>
+=======
+            <file>file:/home/snir2g1/Bureau/TP/Commenge/serre/VuePrincipal/ClientMeteo.h</file>
+            <file>file:/home/snir2g1/Bureau/TP/Commenge/serre/VuePrincipal/ClientMeteo.cpp</file>
+            <file>file:/home/snir2g1/Bureau/TP/Commenge/serre/VuePrincipal/Superviseur.cpp</file>
+            <file>file:/home/snir2g1/Bureau/TP/Commenge/serre/VuePrincipal/Superviseur.h</file>
+>>>>>>> 2024ada1334a58f71c60499e9b11a1abe9926434
         </group>
     </open-files>
 </project-private>
