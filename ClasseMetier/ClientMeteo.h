@@ -13,14 +13,18 @@
 
 #ifndef CLIENTMETEO_H
 #define CLIENTMETEO_H
+#include "BulletinMeteo.h"
 
 class ClientMeteo {
 public:
     ClientMeteo();
-    ClientMeteo(const ClientMeteo& orig);
     virtual ~ClientMeteo();
+    void traiterBulletinMeteo(BulletinMeteo bulletin);
+    void declancherAlerteVent();
+    void declancherFinAlerteVent();
+    BulletinMeteo* getBulletinMeteo();
 private:
-
+    BulletinMeteo* dernierBulletinMeteo;
 };
 
 #endif /* CLIENTMETEO_H */
