@@ -19,17 +19,20 @@
 #include "../VueMeteo/VueMeteo.h"
 #include "../VueSerre/VueSerre.h"
 
+class VueMeteo;
+class VueSerre;
+class Superviseur;
 class VuePrincipale : public QWidget {
     Q_OBJECT
 public:
-    VuePrincipale(Superviseur unSuperviseur);
+    VuePrincipale(Superviseur* unSuperviseur);
     virtual ~VuePrincipale();
-    VueMeteo getLaVueMeteo();
-    VueSerre getLaVueSerre();
+    VueMeteo* getLaVueMeteo();
+    VueSerre* getLaVueSerre();
     void mettreAJour();
 private:
-    VueMeteo laVueMeteo;
-    VueSerre laVueSerre;
+    VueMeteo* laVueMeteo;
+    VueSerre* laVueSerre;
     Superviseur* leSuperviseur;
 };
 

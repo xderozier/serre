@@ -13,7 +13,7 @@
 
 #include "VuePrincipale.h"
 
-VuePrincipale::VuePrincipale(Superviseur unSuperviseur) {
+VuePrincipale::VuePrincipale(Superviseur* unSuperviseur) {
     leSuperviseur = unSuperviseur;
 }
 
