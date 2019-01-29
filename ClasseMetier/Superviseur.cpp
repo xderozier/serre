@@ -14,9 +14,7 @@
 #include "Superviseur.h"
 
 Superviseur::Superviseur() {
-}
-
-Superviseur::Superviseur(const Superviseur& orig) {
+    laVue = new VuePrincipale(this);
 }
 
 Superviseur::~Superviseur() {

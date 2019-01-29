@@ -14,9 +14,10 @@
 #ifndef _VUEMETEO_H
 #define _VUEMETEO_H
 #include "../ClasseMetier/BulletinMeteo.h"
-
+#include "../VuePrincipale/VuePrincipale.h"
 #include "ui_VueMeteo.h"
 
+class VuePrincipale;
 class VueMeteo : public QWidget,Observateur {
     Q_OBJECT
 public:
@@ -27,6 +28,7 @@ public:
 private:
     Ui::VueMeteo widget;
     BulletinMeteo* dernierBulletinMeteo;
+    VuePrincipale* laVuePrincipale;
 };
 
 #endif /* _VUEMETEO_H */

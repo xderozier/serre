@@ -13,14 +13,20 @@
 
 #ifndef SUPERVISEUR_H
 #define SUPERVISEUR_H
+#include "ClientMeteo.h"
+#include "../VuePrincipale/VuePrincipale.h"
+#include "ClientMeteo.h"
 
+class VuePrincipale;
 class Superviseur {
 public:
     Superviseur();
-    Superviseur(const Superviseur& orig);
     virtual ~Superviseur();
+    ClientMeteo* getLeClientMeteo();
+    void setVuePrincipale(VuePrincipale uneVuePrincipale);
 private:
-
+    VuePrincipale* laVue;
+    ClientMeteo* leClientMeteo;
 };
 
 #endif /* SUPERVISEUR_H */
