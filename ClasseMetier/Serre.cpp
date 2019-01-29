@@ -5,20 +5,21 @@
  */
 
 /* 
- * File:   Superviseur.cpp
+ * File:   Serre.cpp
  * Author: snir2g1
  * 
- * Created on 29 janvier 2019, 16:34
+ * Created on 17 janvier 2019, 17:01
  */
 
-#include "Superviseur.h"
+#include "Serre.h"
 
-Superviseur::Superviseur() {
+Serre::Serre() {
+    infosClimat = new InfosClimat();
 }
 
-Superviseur::Superviseur(const Superviseur& orig) {
+Serre::~Serre() {
 }
 
-Superviseur::~Superviseur() {
+void Serre::executerCommande(Commande commande){
+    
 }
-

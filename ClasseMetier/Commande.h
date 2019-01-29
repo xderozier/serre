@@ -5,20 +5,22 @@
  */
 
 /* 
- * File:   ClientMeteo.cpp
+ * File:   Commande.h
  * Author: snir2g1
- * 
- * Created on 29 janvier 2019, 16:57
+ *
+ * Created on 17 janvier 2019, 17:10
  */
 
-#include "ClientMeteo.h"
+#ifndef COMMANDE_H
+#define COMMANDE_H
 
-ClientMeteo::ClientMeteo() {
-}
+class Commande {
+public:
+    Commande();
+    virtual ~Commande();
+private:
 
-ClientMeteo::ClientMeteo(const ClientMeteo& orig) {
-}
+};
 
-ClientMeteo::~ClientMeteo() {
-}
+#endif /* COMMANDE_H */
 
